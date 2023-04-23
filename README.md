@@ -46,8 +46,8 @@ Yes there were differences. I had to wrangle the data a tad more to get the auto
 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
-I think it would be beneficial to gather a larger dataset. Perhaps more columns in similar nature to duration, as that was the most valuable feature.
+I think it would be beneficial to gather a larger dataset. Perhaps more columns in similar nature to duration, as that was the most valuable feature. Additionally, while using autoML did give us a slightly higher score, overall, it's probably not worth the time. It does make a good example as a demonstration of its weaknesses, but in terms of experimentation, I'd leave it in favor of a manually selected approach. If you wanted to look at this question in the opposite light, giving the autoML even more time to process would likely give us a higher model score, but again, probably not worth the time overall.
 
 ## Proof of cluster clean up
 **Image of cluster marked for deletion**
-I cannot screenshot it, but I have deleted my compute instance and Compute cluster under the Compute tab in the Manage section of the ML Studio.
+I cannot screenshot it, but I have deleted my compute instance and Compute cluster under the Compute tab in the Manage section of the ML Studio. Check notebook for removal code...
